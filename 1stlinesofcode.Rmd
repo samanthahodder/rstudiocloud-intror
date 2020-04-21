@@ -41,3 +41,14 @@ class(Sys.timezone())
 '"Do you think this is a game?", he said. "No, I think Jenga\'s a game", Archer responded.'
 ```
  
+```bash
+git config --global user.name "Samantha Hodder"
+git config --global user.email slh204@cam.ac.uk
+```
+
+```{r}
+ex_vector = c(1,2,3,4,5)
+pi*ex_vector^2
+```
+
+
