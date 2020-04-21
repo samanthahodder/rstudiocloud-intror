@@ -24,4 +24,20 @@ The preview shows you a rendered HTML copy of the contents of the editor. Conseq
 diameter = 12
 pi*(diameter/2)^2
 ```
+## 8.7 DATA TYPE EXERICSES
 
+The 'class()' function returns metadata and string encoding its important because not getting it right can screw up data loading and processing. 
+```{r}
+# conver TRUE to an integer
+TRUE
+FALSE
+as.integer(TRUE)
+#as.numeric(TRUE)
+class(Sys.time())
+class(Sys.timezone())
+```
+
+```{r}
+'"Do you think this is a game?", he said. "No, I think Jenga\'s a game", Archer responded.'
+```
+ 
