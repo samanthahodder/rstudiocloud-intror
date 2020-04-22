@@ -25,6 +25,9 @@ diameter = 12
 pi*(diameter/2)^2
 ```
 ## 8.7 DATA TYPE EXERICSES
+```{r}
+
+```
 
 The 'class()' function returns metadata and string encoding its important because not getting it right can screw up data loading and processing. 
 ```{r}
@@ -51,4 +54,18 @@ ex_vector = c(1,2,3,4,5)
 pi*ex_vector^2
 ```
 
+```{r}
+iris %>% 
+  group_by(Species) %>% 
+  summarise(count = n(), avg.Sepal.Length = mean(Sepal.Length))
+
+iris %>% 
+  group_by(Species) %>% 
+  mutate(Diff.Sepal.Length = (Sepal.Length - mean(Sepal.Length))/mean(Sepal.Length))
+```
+
+```{r}
+
+  
+```
 
