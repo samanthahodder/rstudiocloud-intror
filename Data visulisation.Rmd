@@ -1,0 +1,12 @@
+---
+title: "Data science"
+output: html_notebook
+---
+
+```{r}
+library(AppliedPredictiveModeling)
+data(AlzheimerDisease)
+alzheimers <- predictors %>% cbind(diagnosis)
+```
+
+
